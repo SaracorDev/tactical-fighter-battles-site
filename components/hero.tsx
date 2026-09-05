@@ -8,8 +8,15 @@ export function Hero() {
       className="relative overflow-hidden border-b border-line"
       aria-labelledby="hero-heading"
     >
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/images/runway_strike.jpg"
+        alt=""
+        className="pointer-events-none absolute inset-0 size-full object-cover object-center"
+        aria-hidden="true"
+      />
       <div
-        className="hex-grid pointer-events-none absolute inset-0 opacity-90"
+        className="hex-grid pointer-events-none absolute inset-0 opacity-40"
         aria-hidden="true"
       />
       <div
