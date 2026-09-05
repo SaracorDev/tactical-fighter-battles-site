@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-ibm-plex-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), ui-monospace, monospace;
+  --color-ink: #08090b;
+  --color-panel: #121418;
+  --color-steel: #8b929b;
+  --color-steel-dim: #5c636c;
+  --color-line: #2a2f36;
+  --color-amber: #e3b23c;
+  --color-amber-dim: #b88c22;
+  --color-paper: #f3efe4;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-amber) 35%, transparent);
+  color: var(--color-paper);
+}
+
+.hex-grid {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='64' viewBox='0 0 56 64'%3E%3Cpath fill='none' stroke='%23e3b23c' stroke-opacity='0.07' stroke-width='1' d='M28 2 54 17v30L28 62 2 47V17z'/%3E%3C/svg%3E");
+  background-size: 56px 64px;
+}
