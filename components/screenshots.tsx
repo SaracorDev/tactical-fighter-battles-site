@@ -1,6 +1,15 @@
-export function Screenshots() {
-  const frames = ["Briefing", "Hex map", "Package"] as const;
+import Image from "next/image";
 
+const shots = [
+  { src: "/screenshots/01-title.png", caption: "Title" },
+  { src: "/screenshots/02-briefing.png", caption: "Briefing" },
+  { src: "/screenshots/03-library.png", caption: "Library" },
+  { src: "/screenshots/04-dogfight.png", caption: "Dogfight" },
+  { src: "/screenshots/05-ground-war.png", caption: "Ground War" },
+  { src: "/screenshots/06-carrier.png", caption: "Carrier" },
+] as const;
+
+export function Screenshots() {
   return (
     <section
       id="screenshots"
@@ -18,24 +27,28 @@ export function Screenshots() {
           Screenshots
         </h2>
         <p className="mt-4 max-w-xl text-steel">
-          In-game captures will land here. These frames are placeholders — no
-          mock shots.
+          In-game captures from Tactical Fighter Battles — title, briefing,
+          library, dogfight, ground war, and carrier ops.
         </p>
-        <ul className="mt-10 grid gap-4 sm:grid-cols-3">
-          {frames.map((label) => (
+        <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {shots.map(({ src, caption }) => (
             <li
-              key={label}
-              className="relative aspect-16/10 overflow-hidden border border-dashed border-line bg-panel"
+              key={src}
+              className="group overflow-hidden border border-line bg-panel"
             >
-              <div
-                className="hex-grid absolute inset-0 opacity-40"
-                aria-hidden="true"
-              />
-              <div className="relative flex h-full flex-col items-center justify-center gap-2 px-4 text-center">
-                <span className="font-mono text-[10px] tracking-[0.24em] text-steel-dim uppercase">
-                  {label}
+              <div className="relative aspect-video overflow-hidden">
+                <Image
+                  src={src}
+                  alt={`Tactical Fighter Battles — ${caption}`}
+                  fill
+                  className="object-cover transition duration-300 group-hover:scale-[1.02]"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+              </div>
+              <div className="border-t border-line px-3 py-2">
+                <span className="font-mono text-[10px] tracking-[0.24em] text-amber uppercase">
+                  {caption}
                 </span>
-                <span className="text-sm text-steel">Screenshots coming soon</span>
               </div>
             </li>
           ))}
