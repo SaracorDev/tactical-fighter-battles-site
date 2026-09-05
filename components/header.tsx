@@ -5,6 +5,7 @@ const nav = [
   { href: "#pitch", label: "The game" },
   { href: "#features", label: "Features" },
   { href: "#screenshots", label: "Screenshots" },
+  { href: "#videos", label: "Videos" },
   { href: "#updates", label: "Updates" },
 ] as const;
 

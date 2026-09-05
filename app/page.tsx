@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Pitch } from "@/components/pitch";
 import { Screenshots } from "@/components/screenshots";
+import { Videos } from "@/components/videos";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Pitch />
         <Features />
         <Screenshots />
+        <Videos />
         <Cta />
       </main>
       <SiteFooter />

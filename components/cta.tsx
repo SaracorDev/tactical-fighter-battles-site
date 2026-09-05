@@ -10,7 +10,7 @@ export function Cta() {
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-4 py-16 sm:px-6 sm:py-20 lg:flex-row lg:items-end lg:justify-between">
         <div className="max-w-xl">
           <p className="font-mono text-[11px] tracking-[0.28em] text-amber uppercase">
-            06 / Early access
+            07 / Early access
           </p>
           <h2
             id="cta-heading"
