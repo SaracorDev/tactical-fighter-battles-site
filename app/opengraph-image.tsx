@@ -31,7 +31,7 @@ export default function OpenGraphImage() {
             fontFamily: "monospace",
           }}
         >
-          Windows · 1945–present
+          Windows · Android · 1945–present
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           <div

@@ -19,8 +19,9 @@ export function Cta() {
             Coming soon
           </h2>
           <p className="mt-5 text-base leading-relaxed text-steel sm:text-lg">
-            A public Windows release is not listed on any store yet. Follow the
-            game repository for development updates and early access news.
+            Windows and Android builds are in the works, but neither is listed
+            on a public store yet. Follow the game repository for development
+            updates and early access news.
           </p>
         </div>
         <a

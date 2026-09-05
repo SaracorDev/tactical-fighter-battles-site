@@ -18,7 +18,7 @@ export function Hero() {
       />
       <div className="relative mx-auto flex max-w-6xl flex-col gap-8 px-4 py-20 sm:px-6 sm:py-28 lg:py-36">
         <p className="font-mono text-[11px] tracking-[0.28em] text-amber uppercase">
-          Windows · 1945–present · Early access
+          Windows · Android · 1945–present · Early access
         </p>
         <div className="max-w-3xl">
           <div className="mb-5 flex items-center gap-3 text-steel">

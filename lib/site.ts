@@ -2,9 +2,9 @@ export const site = {
   name: "Tactical Fighter Battles",
   shortName: "TFB",
   tagline:
-    "Turn-based tactical hex wargame of jet fighters. 1945 to the modern day. Windows.",
+    "Turn-based tactical hex wargame of jet fighters. 1945 to the modern day. Windows and Android.",
   description:
-    "A Windows turn-based tactical hex wargame of jet fighters from 1945 to the modern day. Early access coming soon.",
+    "A turn-based tactical hex wargame of jet fighters from 1945 to the modern day. Windows and Android builds in the works. Early access coming soon.",
   copyrightName: "Will Culbertson",
   copyrightYear: 2026,
 } as const;
