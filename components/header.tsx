@@ -6,7 +6,7 @@ const nav = [
   { href: "#features", label: "Features" },
   { href: "#screenshots", label: "Screenshots" },
   { href: "#videos", label: "Videos" },
-  { href: "#updates", label: "Updates" },
+  { href: "#updates", label: "Demo" },
 ] as const;
 
 export function SiteHeader() {
@@ -31,12 +31,12 @@ export function SiteHeader() {
           ))}
         </nav>
         <a
-          href={links.gameRepo}
+          href={links.demoDownload}
           target="_blank"
           rel="noopener noreferrer"
           className="border border-amber/70 px-3 py-1.5 text-xs font-medium tracking-wide text-amber uppercase transition-colors hover:bg-amber hover:text-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
         >
-          GitHub
+          Download
         </a>
       </div>
     </header>

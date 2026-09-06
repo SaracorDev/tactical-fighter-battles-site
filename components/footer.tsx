@@ -19,12 +19,12 @@ export function SiteFooter() {
         <ul className="flex flex-col gap-2 text-sm text-steel sm:items-end">
           <li>
             <a
-              href={links.siteRepo}
+              href={links.demoDownload}
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
             >
-              Site source
+              Download Windows demo
             </a>
           </li>
           <li>
@@ -34,7 +34,17 @@ export function SiteFooter() {
               rel="noopener noreferrer"
               className="transition-colors hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
             >
-              Game repository
+              Demo repository
+            </a>
+          </li>
+          <li>
+            <a
+              href={links.siteRepo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-paper focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
+            >
+              Site source
             </a>
           </li>
         </ul>

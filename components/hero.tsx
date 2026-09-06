@@ -26,7 +26,7 @@ export function Hero() {
       <div className="relative mx-auto flex max-w-6xl flex-col px-4 py-20 sm:px-6 sm:py-28 lg:py-36">
         <div className="max-w-3xl border border-line/80 bg-ink/88 p-6 shadow-[0_20px_60px_rgba(0,0,0,0.55)] backdrop-blur-md sm:p-8 lg:p-10">
           <p className="font-mono text-[11px] tracking-[0.28em] text-amber uppercase">
-            Windows · Android · 1945–present · Early access
+            Windows demo · Android in the works · 1945–present
           </p>
           <div className="mt-5 mb-5 flex items-center gap-3 text-steel">
             <HexMark className="size-8 text-amber" />
@@ -43,18 +43,20 @@ export function Hero() {
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
-              href={links.gameRepo}
+              href={links.demoDownload}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center bg-amber px-5 py-3 text-sm font-semibold tracking-wide text-ink uppercase transition-colors hover:bg-amber-dim focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
             >
-              Follow development
+              Download Windows demo
             </a>
             <a
-              href="#updates"
+              href={links.gameRepo}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center border border-line px-5 py-3 text-sm font-medium tracking-wide text-paper uppercase transition-colors hover:border-steel hover:text-amber focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
             >
-              Coming soon
+              Demo on GitHub
             </a>
           </div>
         </div>
