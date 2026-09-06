@@ -16,6 +16,20 @@
 
 html {
   scroll-behavior: smooth;
+  /* Sticky header is h-14 / sm:h-16 — keep hash targets out from under it. */
+  scroll-padding-top: 3.5rem;
+}
+
+@media (min-width: 640px) {
+  html {
+    scroll-padding-top: 4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 body {
