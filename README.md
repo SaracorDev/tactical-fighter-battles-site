@@ -30,4 +30,4 @@ This is a standard Next.js App Router app (TypeScript + Tailwind CSS). Deploy on
 
 ## Notes
 
-The page offers the free Windows demo 1.2.0 (`TacticalFighterBattles-DEMO-1.2.0-windows.zip`, 98.6 MB, SHA-256 `a446f59512846192b41ff808f1220bedb9fc34d9eebf7aeaefc8981c1c97df81`) from the demo repo's GitHub Releases. There is no store page yet. Copy and links live in `lib/site.ts`.
+The page offers the free Windows demo 1.2.0 (`TacticalFighterBattles-DEMO-1.2.0-windows.zip`, 98.6 MB, SHA-256 `365f0de0c369e5c7ff2359c096540014bb9d4811d4258a1985c39511fc9deee0`) from the demo repo's GitHub Releases. There is no store page yet. Copy and links live in `lib/site.ts`.
