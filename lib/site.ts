@@ -5,7 +5,7 @@ export const site = {
     "Turn-based tactical hex wargame of jet fighters. 1945 to the modern day. Windows and Android.",
   description:
     "A turn-based tactical hex wargame of jet fighters from 1945 to the modern day. Windows demo available now; Android in the works.",
-  copyrightName: "Will Culbertson",
+  copyrightName: "BSC Networks",
   copyrightYear: 2026,
 } as const;
 

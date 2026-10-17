@@ -4,7 +4,9 @@
 
 Marketing landing page for **Tactical Fighter Battles**, a turn-based tactical hex wargame of jet fighters from 1945 to the modern day. The app is one page: pitch, features, screenshots, gameplay videos, and download calls to action.
 
-Copy, copyright (`Will Culbertson`, 2026), and outbound links live in `lib/site.ts`. The page offers a Windows demo zip and links to the demo repository. The footer also links to this site's source.
+Owner: BSC Networks
+
+Copy, copyright (`BSC Networks`, 2026), and outbound links live in `lib/site.ts`. The page offers a Windows demo zip and links to the demo repository. The footer also links to this site's source.
 
 - This repository: https://github.com/SaracorDev/tactical-fighter-battles-site
 - Demo repository linked from the page: https://github.com/SaracorDev/Tactical-Fighter-Battles-Demo
