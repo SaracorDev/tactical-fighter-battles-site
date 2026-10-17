@@ -81,8 +81,6 @@ Metadata allows indexing (`robots.index` and `follow` are true). Theme color is 
 
 No `TODO` or `FIXME` comments in the source.
 
-- The README still says there is no download URL and that the primary CTA points at the game repository for updates. The page now downloads the Windows demo and links to the demo repository.
-- `components/pitch.tsx` still says Windows and Android builds are in the works. The hero, site description, and CTA say a Windows demo is available and Android is in the works.
 - `links.demoReleases` in `lib/site.ts` is unused.
 - No automated tests.
 
