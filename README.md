@@ -2,6 +2,8 @@
 
 Marketing landing page for **Tactical Fighter Battles**, a Windows turn-based tactical hex wargame of jet fighters from 1945 to the modern day.
 
+Owner: BSC Networks
+
 - Game repository: https://github.com/SaracorDev/Tactical-Fighter-Battles
 - This site: https://github.com/SaracorDev/tactical-fighter-battles-site
 
