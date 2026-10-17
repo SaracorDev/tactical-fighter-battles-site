@@ -2,6 +2,7 @@
   "name": "tactical-fighter-battles-site",
   "version": "0.1.0",
   "private": true,
+  "license": "UNLICENSED",
   "author": "BSC Networks",
   "scripts": {
     "dev": "next dev",
