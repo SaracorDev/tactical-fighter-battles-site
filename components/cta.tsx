@@ -24,6 +24,10 @@ export function Cta() {
             — no Godot install needed. Android and the full game are still in
             the works.
           </p>
+          <p className="mt-3 font-mono text-xs break-all text-steel">
+            TacticalFighterBattles-DEMO-1.2.0-windows.zip · 98.6 MB · SHA-256
+            a446f59512846192b41ff808f1220bedb9fc34d9eebf7aeaefc8981c1c97df81
+          </p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
           <a

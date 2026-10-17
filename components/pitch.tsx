@@ -27,8 +27,9 @@ export function Pitch() {
           <p>
             Coverage runs from the first jets of 1945 to today&apos;s front-line
             types. US, Soviet/Russian, French, British, and other air arms share
-            the same map. Campaigns string hops into longer fights. Windows and
-            Android builds are in the works; a public store page is not up yet.
+            the same map. Campaigns string hops into longer fights. A free Windows demo is
+            available now; Android and the full game are in the works, and a
+            public store page is not up yet.
           </p>
         </div>
       </div>
