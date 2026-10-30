@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { HexMark } from "@/components/hex-mark";
 import { links, site } from "@/lib/site";
 
@@ -8,13 +9,16 @@ export function Hero() {
       className="relative overflow-hidden border-b border-line"
       aria-labelledby="hero-heading"
     >
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src="/images/runway_strike.jpg"
-        alt=""
-        className="pointer-events-none absolute inset-0 size-full object-cover object-center"
-        aria-hidden="true"
-      />
+      <div className="pointer-events-none absolute inset-0" aria-hidden="true">
+        <Image
+          src="/images/runway_strike.jpg"
+          alt=""
+          fill
+          preload
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+      </div>
       <div
         className="hex-grid pointer-events-none absolute inset-0 opacity-40"
         aria-hidden="true"
