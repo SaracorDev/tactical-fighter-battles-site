@@ -1,12 +1,12 @@
 const videos = [
   {
     src: "/videos/fulda_strike.mp4",
-    poster: "/screenshots/04-dogfight.png",
+    poster: "/videos/fulda_strike.jpg",
     caption: "Fulda Strike",
   },
   {
     src: "/videos/mig_alley.mp4",
-    poster: "/screenshots/05-ground-war.png",
+    poster: "/videos/mig_alley.jpg",
     caption: "MiG Alley",
   },
 ] as const;
@@ -43,7 +43,7 @@ export function Videos() {
                   className="h-full w-full object-cover"
                   controls
                   playsInline
-                  preload="metadata"
+                  preload="none"
                   poster={poster}
                   aria-label={`Tactical Fighter Battles — ${caption}`}
                 >
